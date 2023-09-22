@@ -1,7 +1,6 @@
 # Proje Çalıştırma
 
-<!-- ng serve -->
-
+ ```ng serve```
 # Fake Api
 
-<!-- npm run start -->
+ ```npm run start```
