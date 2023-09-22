@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg">
+
+  <div class="img-logo">
+    <a href="https://rastmobile.com/">
+      <img src="assets/img/rast-mobile.png" alt="rast-mobile">
+    </a>
+  </div>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <div class="header mt-3">
+        <ul *ngFor="let headerItem of header">
+          <li>{{headerItem.name}}</li>
+        </ul>
+      </div>
+      <li class="nav-item dropdown mt-3">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul *ngFor="let headerItem of header">
+            <li>{{headerItem.name}}</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="icon">
+      <a href="https://www.youtube.com/">
+        <img class="img-icon" src="assets/img/youtube-icon.png" alt="youtube-icon">
+      </a>
+      <a href="https://www.instagram.com/" class="a-icon">
+        <img class="img-icon" src="assets/img/instagram-icon.png" alt="instagram-icon">
+      </a>
+      <a href="" class="a-icon">
+        <img class="img-icon" src="assets/img/be-icon.png" alt="be-icon">
+      </a>
+      <a href="https://www.linkedin.com/" class="a-icon">
+        <img class="img-icon" src="assets/img/linkedIn-icon.png" alt="linkedIn-icon">
+      </a>
+    </div>
+  </div>
+</nav>

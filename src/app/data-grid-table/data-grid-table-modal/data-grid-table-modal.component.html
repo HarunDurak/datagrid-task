@@ -1,0 +1,22 @@
+<bootstrap-modal (submitEventEmit)="submitEvent()" (closeEventEmit)="closeEvent()">
+
+  <form [formGroup]="tableForm" (submit)="submitEvent()">
+
+    <div class="form">
+      <label>Sosyal Medya Linki</label>
+      <input required class="form-control" formControlName="url" type="text">
+    </div>
+
+    <div class="form">
+      <label>Sosyal Medya Adı</label>
+      <input required class="form-control" formControlName="name" type="text">
+    </div>
+
+    <div class="form">
+      <label>Açıklama</label>
+      <input required class="form-control" formControlName="description" type="text">
+    </div>
+
+  </form>
+
+</bootstrap-modal>

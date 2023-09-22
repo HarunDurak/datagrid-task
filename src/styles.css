@@ -1,0 +1,30 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+
+html,
+body {
+  height: 93%;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dataTables_length {
+  display: none !important;
+}
+
+.dataTables_filter {
+  float: left !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 39px !important;
+}
+
+.dataTables_wrapper{
+  width: 100% !important;
+  overflow: auto !important;
+}

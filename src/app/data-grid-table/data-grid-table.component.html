@@ -1,0 +1,15 @@
+<div class="contain">
+
+  <div style="position: relative;z-index: 1;">
+
+    <div class="btn-div">
+
+      <button (click)="openModel()" class="btn"><span class="icon">+</span> {{btnText}}</button>
+
+    </div>
+  </div>
+
+  <table [dtTrigger]="dtTrigger" datatable [dtOptions]="dtOptions" class="row-border hover" style="width: 100%;">
+  </table>
+
+</div>

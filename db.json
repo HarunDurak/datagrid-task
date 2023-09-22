@@ -1,0 +1,34 @@
+{
+  "social": [
+    {
+      "id": 1,
+      "name": "instagram",
+      "url": "instagram.com/mobilerast/",
+      "description": "We'll help you to finish your development project successfully."
+    },
+    {
+      "id": 2,
+      "name": "linkedin",
+      "url": "tr.linkedin.com/company/rastmobile",
+      "description": "Hire vetted developers from Rast Mobile to scale up your tech projects."
+    },
+    {
+      "id": 3,
+      "name": "behance",
+      "url": "behance.net/rastmobile",
+      "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+    },
+    {
+      "id": 4,
+      "name": "twitter",
+      "url": "twitter.com/rastmobile",
+      "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+    },
+    {
+      "url": "de",
+      "name": "de",
+      "description": "de",
+      "id": 5
+    }
+  ]
+}

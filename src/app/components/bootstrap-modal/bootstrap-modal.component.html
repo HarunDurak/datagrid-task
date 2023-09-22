@@ -1,0 +1,13 @@
+<div class="modal-header">
+  <button type="button" class="btn-close" aria-label="Close" (click)="closeEvent()"></button>
+</div>
+<div class="modal-body">
+  <ng-content></ng-content>
+</div>
+<div style="display: flex; justify-content: space-between; padding: 1em;">
+
+  <div style="display: flex; justify-content: end; width: 100%;">
+    <button type="button" class="btn-cancel" (click)="closeEvent()">{{button2Text}}</button>
+    <button type="button" class="btn-save" (click)="submitEvent()">{{button1Text}}</button>
+  </div>
+</div>

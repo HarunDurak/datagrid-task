@@ -1,0 +1,11 @@
+.form-control {
+  border-radius: 38px;
+  margin-top: 2px;
+}
+.form{
+  margin-bottom: 1rem;
+}
+label{
+  font-size: 13px;
+  font-weight: 500;
+}
